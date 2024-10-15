@@ -1,0 +1,51 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Stacked Area Chart of Average Income in Malaysian States",
+      "subtitle": "Average Income over Time for Different States",
+      "subtitleColor": "gray",
+      "fontSize": 24,
+      "fontWeight": "bold"
+    },
+    "width": 700,
+    "height": 400,
+    "data": {
+      "url": "https://raw.githubusercontent.com/idarrshan/FIT3179_Assignment2/refs/heads/main/data/malaysia_income.json",
+      "format": {"type": "json"}
+    },
+    "mark": "area",
+    "encoding": {
+      "x": {
+        "field": "date",
+        "type": "temporal",
+        "title": "Year"
+      },
+      "y": {
+        "field": "income_mean",
+        "type": "quantitative",
+        "title": "Average Income (MYR)",
+        "stack": "zero"  
+      },
+      "color": {
+        "field": "state",
+        "type": "nominal",
+        "title": "State"
+      },
+      "tooltip": [
+        {"field": "state", "type": "nominal", "title": "State"},
+        {"field": "income_mean", "type": "quantitative", "title": "Income (MYR)"},
+        {"field": "date", "type": "temporal", "title": "Year"}
+      ]
+    },
+    "config": {
+      "axis": {
+        "titleFontSize": 15,
+        "labelFontSize": 12
+      },
+      "legend": {
+        "titleFontSize": 14,
+        "labelFontSize": 12
+      }
+    }
+  }
+  
