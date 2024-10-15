@@ -1,103 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Global Economic Indicators</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>State of Economy in Malaysia</title>
 
     <!-- Import Vega & Vega-Lite -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
 
-    <!-- Import pure.css for layout -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
-    />
-
-    <!-- Import  Bootstrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-
-    <!-- Google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-
-    <!-- CSS file -->
-    <link rel="stylesheet" type="text/css" href="styles.css" media="all" />
+    <!-- Import CSS -->
+    <link rel="stylesheet" href="css/styles.css" media="all" />
   </head>
 
-  <body>
+  <body class="page-body">
     <div class="page">
       <!-- Header section -->
-      <div class="card text-center">
-        <div class="card-header bg-secondary text-white">
-          <h2 class="card-title">Global Economic Factors</h2>
-        </div>
-        <div class="card-body">
-          <p class="card-text">
-            Welcome to my Dashboard!!
-          </p>
-        </div>
-      </div>
-
-      <br /><br />
-      <!-- End Header section -->
-
-      <!-- Visualization section -->
-      <div class="card text-center">
-        <h4 class="card-title"><b>GDP data around the world</b></h4>
-        <div class="card-body bg-white text-dark">
-          <p class="card-text">
-            One of the most important economic indicators of a country is the
-            Gross Domestic Product or GDP of the country, and it is one of the
-            most commonly used measure of a country's economic performance.
-          </p>
-
-          <div class="card-body-center">
-            <div id="choropleth_map" class="vis-container"></div>
-          </div>
-        </div>
-        <div class="card-footer text-right bg-light">
-          <p class="card-text text-end text-muted">
-            <i>Source: </i
-            ><a
-              href="https://ourworldindata.org/grapher/national-gdp-constant-usd-wb?tab=table"
-              ><i>ourworldindata.org </i></a
-            >
-          </p>
-        </div>
+      <div class="main-header">
+        <h1 class="main-title">Malaysia Economic Factors</h1>
+        <p class="tagline">Welcome to my Dashboard showing Malaysia from the Economic Point of View!</p>
       </div>
 
       <br /><br />
 
-      <div class="card text-end">
-        <div class="card-footer text-center bg-light">
-          <p class="card-text text-muted">
-            <i
-              >Created by <b>Darrshan Poobalan</b> for
-              <b>FIT3179 Data Visualisation Assignment 2</b></i
-            >
-          </p>
+      <!-- Visualization section for GDP -->
+      <div class="content-box">
+        <h2><b>GDP Data From Around The World</b></h2>
+        <p class="text-box">
+          One of the most important economic indicators of a country is the Gross Domestic Product or GDP.
+        </p>
+
+        <div class="visual-container">
+          <div id="choropleth_map" class="visual-box"></div>
         </div>
       </div>
 
-      <!-- End Visualization section -->
+      <div id="gdp_breakdown_chart" class="visual-box"></div>
+
+
+      <!-- Stacked Area Chart for Income Data -->
+      <div class="content-box">
+        <h2><b>Growth of Average Income in Malaysian States</b></h2>
+        <p class="text-box">
+          This chart shows the trend of average income across Malaysian states over the years.
+        </p>
+
+        <div id="stacked-income-chart" class="visual-box"></div>
+      </div>
+
+      <!-- Interest Rates Chart -->
+      <div class="content-box">
+        <h2><b>Interest Rates in Malaysia</b></h2>
+        <p class="text-box">
+            This graph illustrates the monthly interest rates reported by Bank Negara Malaysia from 2014 to 2024. The lines represent different types of interest rates such as Fixed Deposit Rates for various terms, Base Lending Rates (BLR), and Savings Deposit Rates. Key events that influenced these rates are visible, particularly around 2020 during the COVID-19 pandemic, where many lending and deposit rates experienced significant drops. This trend is likely due to efforts by the central bank to provide economic stimulus during the crisis.
+            The gradual rise in rates post-2022 reflects the global trend of monetary tightening as countries recover from the pandemic and face inflationary pressures. For example, Fixed Deposit Rates (12 months) show a consistent upward trend from mid-2022 onwards. The Base Rate (BR) and BLR similarly experienced a sharp increase after mid-2022, indicating a rise in lending costs for consumers.
+            This graph provides a comprehensive view of the fluctuations in Malaysia's interest rates and helps users understand how economic factors and central bank policies influence these rates over time.
+        </p>
+
+        <div id="new_interest_rates_chart" class="visual-box"></div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer-area">
+        <div class="footer-content">
+          <p class="footer-text text-muted">
+            <i>Created by <b>Darrshan Poobalan</b> for FIT3179 Data Visualisation Assignment 2</i>
+          </p>
+        </div>
+      </div>
     </div>
 
+    <!-- Embed Vega-Lite visualizations -->
     <script type="text/javascript">
-      var choroplethMap = "js/gdp_map.vg.json";
-      vegaEmbed("#choropleth_map", choroplethMap)
-        .then(function (result) {})
-        .catch(console.error);
+      // Embed the choropleth map for GDP data
+      vegaEmbed("#choropleth_map", "js/gdp_map.vg.json").then(function (result) {}).catch(console.error);
 
+      // Embed the stacked area chart for income data
+      vegaEmbed("#stacked-income-chart", "js/area_chart.vg.json").then(function (result) {}).catch(console.error);
+
+      // Embed the interest rates chart
+      vegaEmbed("#new_interest_rates_chart", "js/combined_interest_rates.vg.json").then(function (result) {}).catch(console.error);
+
+</script>
+      
+</script>
     </script>
   </body>
 </html>

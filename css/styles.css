@@ -1,33 +1,136 @@
-body * {
-    font-family: "Open Sans", sans-serif;
+/* General Body Styling */
+.page-body {
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;        
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px; /* Added padding to ensure content doesn't touch edges */
+}
+  
+  /* Header Section */
+  .main-header {
+    margin-top: 0px;
+    background-color: #444444;
+    text-align: center;
+    color: #f0f0f0;
   }
   
-  h1 {
-    font-weight: 900;
+  .main-title {
+    font-size: 3.0em;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', serif;
   }
   
-  body {
-    background-color: lightgray;
+  .tagline {
+    font-size: 1.2em;
+    margin-top: -20px;
+    font-family: 'Helvetica', sans-serif;
   }
   
-  .page {
-    width: 95%;
-    max-width: 1200px;
-    margin: auto;
+  /* Dual Containers Section */
+  .content-containers {
+    background-color: #cccccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0;
+  }
+  
+  /* Section and Chart Containers */
+  .module-container {
+    background-color: #cccccc;
+    display: flex;
+    flex: 1; 
+  }
+  
+  .visual-container {
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
     padding: 20px;
+}
+  
+  .description-section {
+    background-color: #cccccc;
+    display: flex;
+    flex: 1; 
   }
   
-  .vis-container {
-    width: 100%;    /* Set the width for the containers */
-    height: 400px; /* Set the height for the containers */
+  /* Footer Container */
+  .footer-area {
+    background-color: #cccccc;
+    display: flex;
+    flex: 1; 
+  }
+  
+  /* Individual Section Box Styling */
+  .content-box {
+    flex: 1;
+    border-radius: 10px;
+    background-color: #e6e6e6;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  
+  /* Chart Box Styling */
+  .visual-box {
+    background-color: #fafafa;
+    margin: 0 auto; /* Center the chart */
+    flex: 1;
+    border-radius: 12px;
+    padding: 10px;
+}
+  
+  /* Description Box Styling */
+  .text-box {
+    background-color: #fafafa;
     padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px 10px;
+    text-align: justify;
   }
   
-  .pure-g {
-    margin-bottom: 40px;
+  
+  .text-box-alt {
+    background-color: #fafafa;
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: justify;
   }
   
-  .card-title{
-    margin-top: 25px;
+  /* Footer Box Styling */
+  .footer-content {
+    flex: 1;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e6e6e6;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: left;
   }
-  
+
+  /* Footer Container */
+.footer-area {
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    flex: 1;
+    margin: 0 auto;
+}
