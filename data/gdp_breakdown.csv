@@ -1,0 +1,253 @@
+year,Sector_Name,sector,value,Main.Sector
+2015,Agriculture,p1,97539,Agriculture
+2015,Crops,p1.1,63852,Agriculture
+2015,Livestock,p1.2,12694,Agriculture
+2015,Forestry and logging,p1.3,8810,Agriculture
+2015,Fishing,p1.4,12181,Agriculture
+2015,Mining and quarrying,p2,103059,Mining and quarrying
+2015,Crude oil and condensate,p2.1,46526,Mining and quarrying
+2015,Natural gas ,p2.2,49119,Mining and quarrying
+2015,Other mining & quarrying and supporting services,p2.3,7414,Mining and quarrying
+2015,Manufacturing,p3,262379,Manufacturing
+2015,"Minyak dan lemak daripada sayuran & haiwan, prosesan makanan, minuman dan produk tembakau",p3.1,32738,Manufacturing
+2015,"Tekstil, pakaian dan produk kulit",p3.2,4923,Manufacturing
+2015,"Produk kayu, perabot, keluaran kertas dan percetakan ",p3.3,13858,Manufacturing
+2015,"Produk petroleum, kimia, getah dan plastik",p3.4,78307,Manufacturing
+2015,"Produk mineral bukan logam, logam asas dan produk logam yang direka",p3.5,31572,Manufacturing
+2015,"Produk elektrik, elektronik dan optikal",p3.6,70245,Manufacturing
+2015,"Peralatan pengangkutan, pembuatan lain dan pembaikan",p3.7,30738,Manufacturing
+2015,Construction,p4,55382,Construction
+2015,Buildings,p4.1,30606,Construction
+2015,Civil engineering,p4.2,15373,Construction
+2015,Specialised construction activities,p4.3,9402,Construction
+2015,Services,p5,643883,Services
+2015,"Utilities, transportation & storage and information & communication",p5.1,136070,Services
+2015,"Wholesale and retail trade, food & beverage and accommodation",p5.2,220242,Services
+2015,"Finance and insurance, real estate and business services",p5.3,130064,Services
+2015,Other services,p5.4,57724,Services
+2015,Government services,p5.5,99783,Services
+2015,Import duties,p6,14699,Import duties
+2016,Agriculture,p1,93977,Agriculture
+2016,Crops,p1.1,59748,Agriculture
+2016,Livestock,p1.2,13154,Agriculture
+2016,Forestry and logging,p1.3,8642,Agriculture
+2016,Fishing,p1.4,12433,Agriculture
+2016,Mining and quarrying,p2,105368,Mining and quarrying
+2016,Crude oil and condensate,p2.1,46821,Mining and quarrying
+2016,Natural gas ,p2.2,50607,Mining and quarrying
+2016,Other mining & quarrying and supporting services,p2.3,7940,Mining and quarrying
+2016,Manufacturing,p3,273899,Manufacturing
+2016,"Minyak dan lemak daripada sayuran & haiwan, prosesan makanan, minuman dan produk tembakau",p3.1,33679,Manufacturing
+2016,"Tekstil, pakaian dan produk kulit",p3.2,5264,Manufacturing
+2016,"Produk kayu, perabot, keluaran kertas dan percetakan ",p3.3,14452,Manufacturing
+2016,"Produk petroleum, kimia, getah dan plastik",p3.4,81717,Manufacturing
+2016,"Produk mineral bukan logam, logam asas dan produk logam yang direka",p3.5,32907,Manufacturing
+2016,"Produk elektrik, elektronik dan optikal",p3.6,75556,Manufacturing
+2016,"Peralatan pengangkutan, pembuatan lain dan pembaikan",p3.7,30325,Manufacturing
+2016,Construction,p4,59508,Construction
+2016,Buildings,p4.1,31746,Construction
+2016,Civil engineering,p4.2,17791,Construction
+2016,Specialised construction activities,p4.3,9972,Construction
+2016,Services,p5,680561,Services
+2016,"Utilities, transportation & storage and information & communication",p5.1,145176,Services
+2016,"Wholesale and retail trade, food & beverage and accommodation",p5.2,234538,Services
+2016,"Finance and insurance, real estate and business services",p5.3,135688,Services
+2016,Other services,p5.4,60538,Services
+2016,Government services,p5.5,104620,Services
+2016,Import duties,p6,16000,Import duties
+2017,Agriculture,p1,99509,Agriculture
+2017,Crops,p1.1,66092,Agriculture
+2017,Livestock,p1.2,13827,Agriculture
+2017,Forestry and logging,p1.3,7266,Agriculture
+2017,Fishing,p1.4,12325,Agriculture
+2017,Mining and quarrying,p2,105838,Mining and quarrying
+2017,Crude oil and condensate,p2.1,45807,Mining and quarrying
+2017,Natural gas ,p2.2,51492,Mining and quarrying
+2017,Other mining & quarrying and supporting services,p2.3,8539,Mining and quarrying
+2017,Manufacturing,p3,290464,Manufacturing
+2017,"Minyak dan lemak daripada sayuran & haiwan, prosesan makanan, minuman dan produk tembakau",p3.1,37019,Manufacturing
+2017,"Tekstil, pakaian dan produk kulit",p3.2,5682,Manufacturing
+2017,"Produk kayu, perabot, keluaran kertas dan percetakan ",p3.3,15088,Manufacturing
+2017,"Produk petroleum, kimia, getah dan plastik",p3.4,84999,Manufacturing
+2017,"Produk mineral bukan logam, logam asas dan produk logam yang direka",p3.5,34517,Manufacturing
+2017,"Produk elektrik, elektronik dan optikal",p3.6,81217,Manufacturing
+2017,"Peralatan pengangkutan, pembuatan lain dan pembaikan",p3.7,31942,Manufacturing
+2017,Construction,p4,63522,Construction
+2017,Buildings,p4.1,32525,Construction
+2017,Civil engineering,p4.2,20253,Construction
+2017,Specialised construction activities,p4.3,10743,Construction
+2017,Services,p5,723361,Services
+2017,"Utilities, transportation & storage and information & communication",p5.1,154721,Services
+2017,"Wholesale and retail trade, food & beverage and accommodation",p5.2,251632,Services
+2017,"Finance and insurance, real estate and business services",p5.3,143664,Services
+2017,Other services,p5.4,63648,Services
+2017,Government services,p5.5,109694,Services
+2017,Import duties,p6,18076,Import duties
+2018,Agriculture,p1,99637,Agriculture
+2018,Crops,p1.1,65842,Agriculture
+2018,Livestock,p1.2,14584,Agriculture
+2018,Forestry and logging,p1.3,6986,Agriculture
+2018,Fishing,p1.4,12225,Agriculture
+2018,Mining and quarrying,p2,103557,Mining and quarrying
+2018,Crude oil and condensate,p2.1,45430,Mining and quarrying
+2018,Natural gas ,p2.2,49322,Mining and quarrying
+2018,Other mining & quarrying and supporting services,p2.3,8806,Mining and quarrying
+2018,Manufacturing,p3,304843,Manufacturing
+2018,"Minyak dan lemak daripada sayuran & haiwan, prosesan makanan, minuman dan produk tembakau",p3.1,38287,Manufacturing
+2018,"Tekstil, pakaian dan produk kulit",p3.2,5926,Manufacturing
+2018,"Produk kayu, perabot, keluaran kertas dan percetakan ",p3.3,15809,Manufacturing
+2018,"Produk petroleum, kimia, getah dan plastik",p3.4,88418,Manufacturing
+2018,"Produk mineral bukan logam, logam asas dan produk logam yang direka",p3.5,36224,Manufacturing
+2018,"Produk elektrik, elektronik dan optikal",p3.6,86317,Manufacturing
+2018,"Peralatan pengangkutan, pembuatan lain dan pembaikan",p3.7,33859,Manufacturing
+2018,Construction,p4,66194,Construction
+2018,Buildings,p4.1,31160,Construction
+2018,Civil engineering,p4.2,23354,Construction
+2018,Specialised construction activities,p4.3,11681,Construction
+2018,Services,p5,772990,Services
+2018,"Utilities, transportation & storage and information & communication",p5.1,165427,Services
+2018,"Wholesale and retail trade, food & beverage and accommodation",p5.2,272668,Services
+2018,"Finance and insurance, real estate and business services",p5.3,152834,Services
+2018,Other services,p5.4,67170,Services
+2018,Government services,p5.5,114891,Services
+2018,Import duties,p6,16546,Import duties
+2019,Agriculture,p1,101573,Agriculture
+2019,Crops,p1.1,67610,Agriculture
+2019,Livestock,p1.2,15459,Agriculture
+2019,Forestry and logging,p1.3,6382,Agriculture
+2019,Fishing,p1.4,12122,Agriculture
+2019,Mining and quarrying,p2,102887,Mining and quarrying
+2019,Crude oil and condensate,p2.1,42460,Mining and quarrying
+2019,Natural gas ,p2.2,50643,Mining and quarrying
+2019,Other mining & quarrying and supporting services,p2.3,9784,Mining and quarrying
+2019,Manufacturing,p3,316283,Manufacturing
+2019,"Minyak dan lemak daripada sayuran & haiwan, prosesan makanan, minuman dan produk tembakau",p3.1,39629,Manufacturing
+2019,"Tekstil, pakaian dan produk kulit",p3.2,6252,Manufacturing
+2019,"Produk kayu, perabot, keluaran kertas dan percetakan ",p3.3,16545,Manufacturing
+2019,"Produk petroleum, kimia, getah dan plastik",p3.4,90982,Manufacturing
+2019,"Produk mineral bukan logam, logam asas dan produk logam yang direka",p3.5,37716,Manufacturing
+2019,"Produk elektrik, elektronik dan optikal",p3.6,89133,Manufacturing
+2019,"Peralatan pengangkutan, pembuatan lain dan pembaikan",p3.7,36027,Manufacturing
+2019,Construction,p4,66453,Construction
+2019,Buildings,p4.1,29540,Construction
+2019,Civil engineering,p4.2,24823,Construction
+2019,Specialised construction activities,p4.3,12089,Construction
+2019,Services,p5,820576,Services
+2019,"Utilities, transportation & storage and information & communication",p5.1,176184,Services
+2019,"Wholesale and retail trade, food & beverage and accommodation",p5.2,292526,Services
+2019,"Finance and insurance, real estate and business services",p5.3,162121,Services
+2019,Other services,p5.4,70943,Services
+2019,Government services,p5.5,118804,Services
+2019,Import duties,p6,16179,Import duties
+2020,Agriculture,p1,99109,Agriculture
+2020,Crops,p1.1,66681,Agriculture
+2020,Livestock,p1.2,16002,Agriculture
+2020,Forestry and logging,p1.3,5140,Agriculture
+2020,Fishing,p1.4,11286,Agriculture
+2020,Mining and quarrying,p2,92879,Mining and quarrying
+2020,Crude oil and condensate,p2.1,38430,Mining and quarrying
+2020,Natural gas ,p2.2,45896,Mining and quarrying
+2020,Other mining & quarrying and supporting services,p2.3,8554,Mining and quarrying
+2020,Manufacturing,p3,307606,Manufacturing
+2020,"Minyak dan lemak daripada sayuran & haiwan, prosesan makanan, minuman dan produk tembakau",p3.1,38590,Manufacturing
+2020,"Tekstil, pakaian dan produk kulit",p3.2,5444,Manufacturing
+2020,"Produk kayu, perabot, keluaran kertas dan percetakan ",p3.3,15289,Manufacturing
+2020,"Produk petroleum, kimia, getah dan plastik",p3.4,90084,Manufacturing
+2020,"Produk mineral bukan logam, logam asas dan produk logam yang direka",p3.5,32797,Manufacturing
+2020,"Produk elektrik, elektronik dan optikal",p3.6,91362,Manufacturing
+2020,"Peralatan pengangkutan, pembuatan lain dan pembaikan",p3.7,34040,Manufacturing
+2020,Construction,p4,53616,Construction
+2020,Buildings,p4.1,24764,Construction
+2020,Civil engineering,p4.2,17836,Construction
+2020,Specialised construction activities,p4.3,11015,Construction
+2020,Services,p5,777693,Services
+2020,"Utilities, transportation & storage and information & communication",p5.1,169232,Services
+2020,"Wholesale and retail trade, food & beverage and accommodation",p5.2,265100,Services
+2020,"Finance and insurance, real estate and business services",p5.3,154867,Services
+2020,Other services,p5.4,63796,Services
+2020,Government services,p5.5,124699,Services
+2020,Import duties,p6,15346,Import duties
+2021,Agriculture,p1,98843,Agriculture
+2021,Crops,p1.1,65857,Agriculture
+2021,Livestock,p1.2,16495,Agriculture
+2021,Forestry and logging,p1.3,5241,Agriculture
+2021,Fishing,p1.4,11250,Agriculture
+2021,Mining and quarrying,p2,93717,Mining and quarrying
+2021,Crude oil and condensate,p2.1,36410,Mining and quarrying
+2021,Natural gas ,p2.2,49166,Mining and quarrying
+2021,Other mining & quarrying and supporting services,p2.3,8142,Mining and quarrying
+2021,Manufacturing,p3,336724,Manufacturing
+2021,"Minyak dan lemak daripada sayuran & haiwan, prosesan makanan, minuman dan produk tembakau",p3.1,39272,Manufacturing
+2021,"Tekstil, pakaian dan produk kulit",p3.2,5837,Manufacturing
+2021,"Produk kayu, perabot, keluaran kertas dan percetakan ",p3.3,16728,Manufacturing
+2021,"Produk petroleum, kimia, getah dan plastik",p3.4,101787,Manufacturing
+2021,"Produk mineral bukan logam, logam asas dan produk logam yang direka",p3.5,34101,Manufacturing
+2021,"Produk elektrik, elektronik dan optikal",p3.6,104745,Manufacturing
+2021,"Peralatan pengangkutan, pembuatan lain dan pembaikan",p3.7,34253,Manufacturing
+2021,Construction,p4,50839,Construction
+2021,Buildings,p4.1,22958,Construction
+2021,Civil engineering,p4.2,14590,Construction
+2021,Specialised construction activities,p4.3,13291,Construction
+2021,Services,p5,795116,Services
+2021,"Utilities, transportation & storage and information & communication",p5.1,176224,Services
+2021,"Wholesale and retail trade, food & beverage and accommodation",p5.2,266308,Services
+2021,"Finance and insurance, real estate and business services",p5.3,159192,Services
+2021,Other services,p5.4,61910,Services
+2021,Government services,p5.5,131482,Services
+2021,Import duties,p6,15642,Import duties
+2022,Agriculture,p1,100082,Agriculture
+2022,Crops,p1.1,66678,Agriculture
+2022,Livestock,p1.2,16579,Agriculture
+2022,Forestry and logging,p1.3,5271,Agriculture
+2022,Fishing,p1.4,11555,Agriculture
+2022,Mining and quarrying,p2,97001,Mining and quarrying
+2022,Crude oil and condensate,p2.1,36283,Mining and quarrying
+2022,Natural gas ,p2.2,51748,Mining and quarrying
+2022,Other mining & quarrying and supporting services,p2.3,8969,Mining and quarrying
+2022,Manufacturing,p3,364124,Manufacturing
+2022,"Minyak dan lemak daripada sayuran & haiwan, prosesan makanan, minuman dan produk tembakau",p3.1,41917,Manufacturing
+2022,"Tekstil, pakaian dan produk kulit",p3.2,6171,Manufacturing
+2022,"Produk kayu, perabot, keluaran kertas dan percetakan ",p3.3,17889,Manufacturing
+2022,"Produk petroleum, kimia, getah dan plastik",p3.4,102892,Manufacturing
+2022,"Produk mineral bukan logam, logam asas dan produk logam yang direka",p3.5,36689,Manufacturing
+2022,"Produk elektrik, elektronik dan optikal",p3.6,119614,Manufacturing
+2022,"Peralatan pengangkutan, pembuatan lain dan pembaikan",p3.7,38950,Manufacturing
+2022,Construction,p4,53426,Construction
+2022,Buildings,p4.1,24824,Construction
+2022,Civil engineering,p4.2,14452,Construction
+2022,Specialised construction activities,p4.3,14151,Construction
+2022,Services,p5,882723,Services
+2022,"Utilities, transportation & storage and information & communication",p5.1,194789,Services
+2022,"Wholesale and retail trade, food & beverage and accommodation",p5.2,309740,Services
+2022,"Finance and insurance, real estate and business services",p5.3,172189,Services
+2022,Other services,p5.4,68570,Services
+2022,Government services,p5.5,137435,Services
+2022,Import duties,p6,16784,Import duties
+2023,Agriculture,p1,100812,Agriculture
+2023,Crops,p1.1,67704,Agriculture
+2023,Livestock,p1.2,16701,Agriculture
+2023,Forestry and logging,p1.3,4799,Agriculture
+2023,Fishing,p1.4,11608,Agriculture
+2023,Mining and quarrying,p2,97513,Mining and quarrying
+2023,Crude oil and condensate,p2.1,36155,Mining and quarrying
+2023,Natural gas ,p2.2,52063,Mining and quarrying
+2023,Other mining & quarrying and supporting services,p2.3,9295,Mining and quarrying
+2023,Manufacturing,p3,366694,Manufacturing
+2023,"Minyak dan lemak daripada sayuran & haiwan, prosesan makanan, minuman dan produk tembakau",p3.1,44150,Manufacturing
+2023,"Tekstil, pakaian dan produk kulit",p3.2,6244,Manufacturing
+2023,"Produk kayu, perabot, keluaran kertas dan percetakan ",p3.3,18035,Manufacturing
+2023,"Produk petroleum, kimia, getah dan plastik",p3.4,102067,Manufacturing
+2023,"Produk mineral bukan logam, logam asas dan produk logam yang direka",p3.5,38585,Manufacturing
+2023,"Produk elektrik, elektronik dan optikal",p3.6,117708,Manufacturing
+2023,"Peralatan pengangkutan, pembuatan lain dan pembaikan",p3.7,39905,Manufacturing
+2023,Construction,p4,56659,Construction
+2023,Buildings,p4.1,25033,Construction
+2023,Civil engineering,p4.2,16548,Construction
+2023,Specialised construction activities,p4.3,15077,Construction
+2023,Services,p5,927904,Services
+2023,"Utilities, transportation & storage and information & communication",p5.1,207021,Services
+2023,"Wholesale and retail trade, food & beverage and accommodation",p5.2,328677,Services
+2023,"Finance and insurance, real estate and business services",p5.3,175453,Services
+2023,Other services,p5.4,72886,Services
+2023,Government services,p5.5,143868,Services
+2023,Import duties,p6,18392,Import duties
